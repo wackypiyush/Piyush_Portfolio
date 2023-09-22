@@ -138,6 +138,12 @@ img{
 }
 
 /*==================== REUSABLE CSS CLASSES ====================*/
+/* Style the list items within the ul.custom-list */
+.custom_list{
+    list-style-type: disc; /* You can change 'disc' to other values like 'circle', 'square', or 'none' */
+    /* Add other styling here if needed */
+  }
+  
 .section{
     padding: 2rem 0 4rem;
 }
@@ -171,7 +177,7 @@ img{
 }
 
 .header{
-    width: 100%;
+    width: 90%;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -761,6 +767,10 @@ img{
     font-size: var(--smaller-font-size);
     color: var(--text-color-light);
 }
+.qualification__marks{
+    font-size: var(--smaller-font-size);
+    color: var(--text-color-dark);
+}
 
 .qualification__rounder{
     display: inline-block;
@@ -861,6 +871,17 @@ img{
 /*==================== PORTFOLIO ====================*/
 .portfolio__container{
     overflow: initial;
+}
+.portfolio__left {
+    flex: 1; /* Take up remaining space on the left */
+    margin-bottom: 100px;
+}
+/* Example CSS for a border around the portfolio section */
+.portfolio_box {
+    border: 2px solid #ccc; /* Adjust the border style and color as needed */
+    padding: 20px; /* Add some padding for spacing inside the box */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    border-radius: 10px; /* Add rounded corners to the box */
 }
 
 .portfolio__content{
