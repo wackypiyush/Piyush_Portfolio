@@ -1581,4 +1581,32 @@ img{
     .contact__information{
         text-align: center;
     }
+
+
+    /* Add your existing CSS styles here */
+
+/* Carousel styles */
+.carousel-container {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.certification__content {
+    flex: 0 0 33.33%;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.carousel-controls {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Rest of your CSS styles */
+
 }
