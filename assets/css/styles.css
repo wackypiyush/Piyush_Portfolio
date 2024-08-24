@@ -415,7 +415,7 @@ img{
 }
 
 .about__description{
-    text-align: center;
+    text-align: justify;
     margin-bottom: var(--mb-2-5);
 }
 
@@ -1465,9 +1465,6 @@ img{
     .about__img{
         width: 350px;
     }
-    .about__description{
-        text-align: initial;
-    }
     .about__info{
         justify-content: space-between;
     }
@@ -1606,6 +1603,8 @@ img{
     text-align: center;
     margin-top: 10px;
 }
+
+
 
 /* Rest of your CSS styles */
 
