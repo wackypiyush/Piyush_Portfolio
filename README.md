@@ -1,31 +1,54 @@
-# Piyush Agrawal - Portfolio
-Welcome to my updated portfolio! I'm Piyush Agrawal, a passionate data analyst with a fresh perspective. 
-In this repository, you'll discover a comprehensive showcase of my skills, experiences, and projects that reflect my journey and expertise.
+# Piyush Agrawal – Portfolio
 
-## About Me
-I'm a B.Tech graduate with a relentless enthusiasm for unraveling insights from data. My academic journey has been a quest for knowledge, encompassing a robust foundation in data manipulation,
-statistical analysis, and the art of data visualization. This portfolio isn't just a page; it's a canvas where I paint the picture of my abilities and proudly display the projects I've crafted.
+Welcome to my portfolio repository. I’m Piyush Agrawal, a DevOps Engineer passionate about building reliable CI/CD pipelines, automating workflows, and delivering smooth engineering experiences. This repo contains the code and structure for my portfolio website, where I showcase selected projects, past work, and my technical journey.
 
-## Portfolio Highlights (Projects)
-Here are some of the exciting projects you'll find in this portfolio:
-<br>
-Email Classification: Predicting email categories using machine learning.<br>
-Credit Risk Prediction: Assessing credit risk with data-driven insights.<br>
-MedHive: Unlocking medical insights from complex datasets.<br>
-Hyundai Car's Features: Analyzing features to understand customer preferences.<br>
-Black Friday Sale: Unearthing shopping trends for optimized marketing.<br>
-IPL Auctions: Predicting player values in the Indian Premier League.<br>
-Spotify Features: Exploring musical attributes to understand user preferences.<br>
-COVID-19 Data Exploration: Deep dive into pandemic data for insights.<br>
-Movie Correlation with Python: Investigating movie industry correlations.<br>
+---
+
+## 🚀 About Me
+
+I’m a B.Tech graduate currently working with Teach Mahindra in the DevOps space, helping teams ship faster and more confidently by improving automation, tooling, and deployment workflows.  
+My interests span CI/CD systems, cloud technologies, Linux, scripting, infrastructure automation, and problem-solving under pressure.
+
+This portfolio reflects my learning path — from early data projects to the DevOps and engineering work I focus on today.
+
+---
+
+## 📌 Portfolio Highlights
+
+These are some of the projects featured on my website:
+
+- **Hotel Management – DevOps Implementation**  
+  End-to-end CI/CD setup with Jenkins, GitLab, Docker, Kubernetes, Terraform & Ansible.
+
+- **YouTube-Spotify Sync**  
+  Automated music data syncing using APIs.
+
+- **Crypto Data Scraper**  
+  High-speed data extraction from dynamic web pages with Selenium & BeautifulSoup.
 
 
-## Explore My Portfolio
-Ready to dive into the data-driven world of my portfolio? Visit my Portfolio Website, https://wackypiyush.github.io/Piyush_Portfolio/ to explore detailed project descriptions, code, and visualizations. Feel free to get your hands dirty with the code, and let me know if you have any questions or suggestions.
+These projects represent a mix of DevOps, automation, data analysis, and backend scripting — the areas that shaped my foundation.
 
-## Get in Touch
-I'm always open to collaboration opportunities and eager to connect with like-minded individuals. Whether you have a burning question or a project idea, don't hesitate to reach out:
+---
 
-Email: wacky.piyush@gmail.com
-LinkedIn: https://www.linkedin.com/in/piyushagrawal-dataanalyst/
-Thank you for visiting my portfolio! I hope you find it both informative and inspiring. Let's embark on a data-driven journey together!
+## 🌐 Explore the Portfolio
+
+Visit my live portfolio website to view project details, code, and visualizations:
+
+🔗 **Portfolio:** https://wackypiyush.github.io/Piyush_Portfolio/
+
+Feel free to browse the code, explore the demos, or use the projects as inspiration.
+
+---
+
+## 📬 Get in Touch
+
+I’m always open to opportunities, collaboration, or tech discussions.
+
+- **Email:** wacky.piyush@gmail.com  
+- **LinkedIn:** https://www.linkedin.com/in/piyushdevops/  
+
+Thanks for stopping by!  
+If you find something interesting or have suggestions, I’d love to hear from you.
+
+---
