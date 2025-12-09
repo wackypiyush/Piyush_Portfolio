@@ -884,15 +884,115 @@ img{
     border-radius: 10px; /* Add rounded corners to the box */
 }
 
-.portfolio__content{
+/* .portfolio__content{
     padding: 0 1.5rem;
+    height: auto !important;
+
+} */
+
+/* Allow wrapper to resize depending on slide*/
+
+/* Restore grid layout */
+.portfolio__content {
+    display: grid !important;
+    grid-template-columns: 250px 1fr;   /* image | content */
+    gap: 1.5rem;
+    align-items: center; /* centers image vertically */
+    height: auto !important;
 }
 
+/* Image stays fixed width */
+.portfolio__img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: .5rem;
+    object-fit: cover;
+}
+
+/* MOBILE VIEW — stack image on top */
+@media (max-width: 768px) {
+    .portfolio__content {
+        grid-template-columns: 1fr; /* stack */
+        align-items: start;
+    }
+
+    .portfolio__img {
+        margin: 0 auto;
+    }
+}
+
+/* Stop swiper from forcing equal heights */
+.swiper-wrapper {
+    height: auto !important;
+    align-items: stretch !important;
+}
+.swiper-slide {
+    height: auto !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .swiper-wrapper {
+    height: auto !important;
+    align-items: flex-start !important;
+}
+
+
+.swiper-slide {
+    height: auto !important;
+}
+
+
+.swiper-container {
+    height: auto !important;
+}
+.portfolio__content {
+    height: auto !important;
+    display: block;
+} */
+
+/* Ensure swiper slide height adapts
+.swiper-slide {
+    height: auto !important;
+}
+.swiper-wrapper {
+    height: auto !important;
+}
+
+
+
+/* Prevent swiper container from forcing fixed height */
+/* .swiper-container {
+    height: auto !important;
+    padding-bottom: 3rem;
+} */ */
 .portfolio__img{
     width: 265px;
     border-radius: .5rem;
     justify-self: center;
+    object-fit: cover;
+    
 }
+.swiper-wrapper,
+.swiper-slide,
+.swiper-container {
+    height: auto !important;
+}
+.swiper-container {
+    transition: height .3s ease;
+}
+
 
 .portfolio__title{
     font-size: var(--h3-font-size);
